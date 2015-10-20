@@ -1,0 +1,22 @@
+{
+  "name": "eduze",
+  "version": "0.0.0",
+  "authors": [
+    "Natalia21 <Natalia1992.92@mail.ru>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.4"
+  }
+}
