@@ -2,7 +2,12 @@
 	width: 100%; 
 	height: 90px;
 	background: red;
-	text-align: center;
+	display: table;
+}
+
+.heder_logo {
+	width: 100%; 
+	display: table-cell;
 }
 
 body {
@@ -10,7 +15,8 @@ body {
 }
 
 .logo {
-	line-height: 90px;	
+	line-height: 80px;
+	vertical-align: middle;	
 }
 
 .player {
@@ -41,34 +47,112 @@ body {
 
 .share_idea {
 	line-height: 70px;	/*центрировать текст по вертикали*/
+}
 
+.select_videos {
+	height: 380px;
+	width: 640px;
+	margin: 0 auto;
+}
+.select {
+	
+	width: 100%; 
+	height: 90px;
+	line-height: 90px;
+}
+
+.text_select {
+	color: #87CEFA;
+	width: 100%; 
+	height: 70px;
+	font-size: 15pt;	
 }
 
 .icon_wrapper {
 	display: inline-block;
 }
 
-.thumbnail {
-	width: 100%; 
-	height: 210px;
+.thumbnail {	
+	height: 250px;
 }
 
 .item {
 	
 }
 
+.owl-carousel {
+	cursor: pointer;
+}
+
 .carousel_pic {
-	width: 20px; 
 	height: 170px;
-    border: 1px solid #000;
-    display: inline-block;
-    margin: 5px;
+	
+}
+.carousel_text_first_line {
+	height: 15px;
+	margin: 10px 0px 0px 0px;
+}
+
+.text_carousel_first {
+	color: #87CEFA;
+	font-size: 10pt;
+}
+
+.carousel_text_second_line {
+	height: 15px;
+}
+
+.text_carousel_second {
+	color: #0080FF;
+	font-size: 12pt;
+	font-weight: 600;
 }
 
 .footer {
 	width: 100%; 
 	height: 210px;
 	text-align: center;
-	background: #58ACFA;
+	background: #0080FF;
+}
+
+.footer_content {
+	height: 70px;
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.text_footer {
+	padding-bottom: 10px;
+}
+
+.text_footer_content {
+	font-size: 10pt;
+	color: #FFFFFF;
+	padding-top: 10px;
+	
+}
+
+.logo_mini {
+	height: 40px;
+	width: 100px;
+	margin: 15px;
+	line-height: 70px;	
+}
+
+.button {
+	height: 70px;
+	margin: 20px;
+	text-align: center;	
+}
+
+.main_button {
+	width: 140px;
+	height: 30px;
+	background: #FFFFFF;
+	color: #2E9AFE;
+	border-color: #0080FF;
+	font-size: 8pt;
+	font-weight: 700;
 }
 	
